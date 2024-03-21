@@ -1,75 +1,79 @@
 .sponsorsLogoWrapper {
-  display: flex;
-  flex-direction: column;
-  margin: 3vh 0px;
-  width: 100%;
-  gap: 2vw;
-  align-self: center;
-  align-items: center;
+	display: flex;
+	flex-direction: column;
+	margin: 3vh 0px;
+	width: 100%;
+	gap: 2vw;
+	align-self: center;
+	align-items: center;
 }
 
 .divSponsorsTire {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 0%;
-  margin: 0%;
-  width: 80%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0%;
+	margin: 0%;
+	width: 80%;
 }
 
 .companySponsorsDiv {
-  display: flex;
-  align-items: center;
-  gap: 5%;
+	display: flex;
+	align-items: center;
+	gap: 5%;
 }
 
 .companySponsorsDiv > a > img {
-  max-width: 15vw;
-  height: 6vw;
-  object-fit: contain;
-  cursor: pointer;
+	max-width: 15vw;
+	height: 6vw;
+	object-fit: contain;
+	cursor: pointer;
 }
 .twinkleSponsors {
-  display: flex;
-  background: transparent;
-  align-self: center;
-  justify-self: right;
+	display: flex;
+	background: transparent;
+	align-self: center;
+	justify-self: right;
 }
 .twinkleSponsors > img {
-  width: 3.5vw;
+	width: 3.5vw;
 }
 
 .lineThree {
-  height: 1px;
-  width: 50%;
-  background-color: #888888;
-  align-self: flex-start;
-  margin-left: 10vw;
+	height: 1px;
+	width: 50%;
+	background-color: #888888;
+	align-self: flex-start;
+	margin-left: 10vw;
 }
 
-@media screen and (max-width: 630px) {
-  .contactsWrapper > .headingTeam {
-    font-size: 30px;
-  }
+@media screen and (max-width: 600px) {
+	.contactsWrapper > .headingTeam {
+		font-size: 30px;
+	}
 
-  .companySponsorsDiv > a > img {
-    max-width: 18vw;
-  }
+	.companySponsorsDiv > a > img {
+		max-width: 60vw;
+		height: 30vw;
+	}
+	.companySponsorsDiv {
+		flex-direction: column;
+	}
 }
 
 @media screen and (max-width: 500px) {
-  .sponsorsLogoWrapper {
-    gap: 2vh;
-  }
-  .divSponsorsTire {
-    flex-direction: column-reverse;
-    gap: 20px;
-  }
-  .twinkleSponsors > img {
-    width: 6.5vw;
-  }
+	.sponsorsLogoWrapper {
+		gap: 2vh;
+	}
+	.divSponsorsTire {
+		flex-direction: column-reverse;
+		gap: 20px;
+	}
+	.twinkleSponsors > img {
+		width: 20vw;
+	}
 
-  .lineThree {
-    display: none;
-  }
+	.lineThree {
+		display: none;
+	}
 }
